@@ -1,0 +1,19 @@
+{
+  "name": "flog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:dev": "yarn workspace server run dev",
+    "client:dev": "yarn workspace client vue-cli-service serve"
+  },
+  "keywords": [],
+  "author": "Dhananjay Naik",
+  "license": "MIT"
+}
