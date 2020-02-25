@@ -6,12 +6,23 @@
   "private": true,
   "workspaces": [
     "client",
-    "server"
+    "server",
+    "shared"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server:dev": "yarn workspace server run dev",
     "client:dev": "yarn workspace client vue-cli-service serve"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules",
+    "server/node_modules",
+    "shared/node_modules"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "semi": true
   },
   "keywords": [],
   "author": "Dhananjay Naik",

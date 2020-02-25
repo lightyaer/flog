@@ -9,7 +9,7 @@
   "authentication": {
     "entity": "user",
     "service": "users",
-    "secret": "HKql3vxf8qTPDPVXXdFHLv/2p2A=",
+    "secret": "rLicAmo7AbCeXpNYpbS6vwjqbtk=",
     "authStrategies": [
       "jwt",
       "local"
@@ -52,5 +52,5 @@
       }
     }
   },
-  "postgres": "postgres://postgres:@localhost:5432/server"
+  "mongodb": "mongodb://localhost:27017/server"
 }
