@@ -9,6 +9,10 @@
     "server",
     "shared"
   ],
+  "engines": {
+    "node": "12.x.x",
+    "yarn": "1.22.x"
+  },
   "scripts": {
     "server:dev": "yarn workspace server run dev",
     "server": "yarn workspace server start",

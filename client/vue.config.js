@@ -1,5 +1,3 @@
-
-
 module.exports = {
   outputDir: '../static',
   devServer: {
@@ -13,4 +11,16 @@ module.exports = {
       }
     }
   },
+  css: {
+    loaderOptions: {
+      postcss: {
+        config: {
+          path: './postcss.config.js'
+        }
+      },
+      scss: {
+        implementation: require('node-sass')
+      }
+    }
+  }
 };

@@ -3,9 +3,8 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
+export const storeOptions = {};
+
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {}
+  modules: storeOptions
 });
