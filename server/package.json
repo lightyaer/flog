@@ -50,7 +50,7 @@
     "cors": "^2.8.5",
     "feathers-mongoose": "^8.3.0",
     "helmet": "^3.21.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment-timezone": "^0.5.28",
     "mongodb-core": "^3.2.7",
     "mongoose": "^5.8.13",
