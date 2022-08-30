@@ -51,7 +51,7 @@
     "feathers-mongoose": "^8.3.0",
     "helmet": "^3.21.2",
     "lodash": "^4.17.15",
-    "moment-timezone": "^0.5.28",
+    "moment-timezone": "^0.5.35",
     "mongodb-core": "^3.2.7",
     "mongoose": "^5.8.13",
     "serve-favicon": "^2.5.0",
